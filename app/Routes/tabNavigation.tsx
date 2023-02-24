@@ -54,6 +54,7 @@ const TabNav = () => {
           justifyContent: 'center',
           alignItems: 'center',
         },
+        tabBarHideOnKeyboard: true,
       }}>
       <Tab.Screen
         name="Delivery"

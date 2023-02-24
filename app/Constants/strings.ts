@@ -1,3 +1,5 @@
+import Constants from '.';
+
 const TabBarLabels = {
   Delivery: 'Delivery',
   Dining: 'Dining',
@@ -5,4 +7,10 @@ const TabBarLabels = {
   Money: 'Money',
 };
 
-export default {TabBarLabels};
+const PlacholderLabels = {
+  Delivery: {
+    search: 'Resturant name or a dish...',
+  },
+};
+
+export default {TabBarLabels, PlacholderLabels};
